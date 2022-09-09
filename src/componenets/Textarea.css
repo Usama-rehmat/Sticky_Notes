@@ -1,0 +1,36 @@
+.Textarea{
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+.Textarea >form> input{
+    padding: 10px;
+    width: 250px;
+    /* width: 100%; */
+    /* border: none; */
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.Textarea >form> textarea{
+    padding: 10px;
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 3px;
+    /* border: none; */
+}
+.Textarea >form> button{
+    background-color: aqua;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+.Textarea >form> button:hover{
+      /* border: 1px solid black; */
+}
