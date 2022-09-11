@@ -8,9 +8,9 @@ function Notes(props) {
 
                 <p>{props.content}</p>
             </div>
-            {/* <button className="edit" onClick={()=>{
+            <button className="edit" onClick={()=>{
                  props.editNote(props)
-            }}>Edit</button> */}
+            }}>Edit</button>
             <button className="del" onClick={() => {
                 props.delNote(props)
                 // console.log(props, "working")

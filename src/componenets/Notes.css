@@ -23,6 +23,7 @@
     border-radius: 20px;
     background-color: aqua;
     border: 1px solid black;
+    cursor: pointer;
 }
 .edit{
     position: absolute;
@@ -32,6 +33,7 @@
     border-radius: 20px;
     background-color: aqua;
     border: 1px solid black;
+    cursor: pointer;
 }
 .overflow{
     height: 78px;
