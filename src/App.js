@@ -30,7 +30,6 @@ function App() {
 
   const editNoteArray = (e) => {
     e.preventDefault()
-    console.log(editNote)
     let newNoteArray = addItems.map((obj) => {
       return obj.id === editNote.id ? editNote : obj
     })
